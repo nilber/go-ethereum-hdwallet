@@ -4,6 +4,10 @@ github.com/btcsuite/btcd/btcec
 github.com/btcsuite/btcd/chaincfg
 github.com/btcsuite/btcd/chaincfg/chainhash
 github.com/btcsuite/btcd/wire
+# github.com/btcsuite/btcd/btcec/v2 v2.1.3
+## explicit; go 1.17
+github.com/btcsuite/btcd/btcec/v2
+github.com/btcsuite/btcd/btcec/v2/ecdsa
 # github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 ## explicit; go 1.14
 github.com/btcsuite/btcutil
@@ -13,7 +17,11 @@ github.com/btcsuite/btcutil/hdkeychain
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/ethereum/go-ethereum v1.10.4
+# github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1
+## explicit; go 1.16
+github.com/decred/dcrd/dcrec/secp256k1/v4
+github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa
+# github.com/ethereum/go-ethereum v1.10.17
 ## explicit; go 1.15
 github.com/ethereum/go-ethereum
 github.com/ethereum/go-ethereum/accounts
@@ -30,15 +38,16 @@ github.com/ethereum/go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/recove
 github.com/ethereum/go-ethereum/event
 github.com/ethereum/go-ethereum/params
 github.com/ethereum/go-ethereum/rlp
+github.com/ethereum/go-ethereum/rlp/internal/rlpstruct
 # github.com/tyler-smith/go-bip39 v1.0.1-0.20181017060643-dbb3b84ba2ef
 ## explicit
 github.com/tyler-smith/go-bip39
 github.com/tyler-smith/go-bip39/wordlists
-# golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
-## explicit; go 1.11
+# golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4
+## explicit; go 1.17
 golang.org/x/crypto/pbkdf2
 golang.org/x/crypto/ripemd160
 golang.org/x/crypto/sha3
-# golang.org/x/sys v0.0.0-20210420205809-ac73e9fd8988
-## explicit; go 1.12
+# golang.org/x/sys v0.0.0-20220422013727-9388b58f7150
+## explicit; go 1.17
 golang.org/x/sys/cpu
