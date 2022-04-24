@@ -30,9 +30,6 @@ github.com/ethereum/go-ethereum/crypto/secp256k1/libsecp256k1/src/modules/recove
 github.com/ethereum/go-ethereum/event
 github.com/ethereum/go-ethereum/params
 github.com/ethereum/go-ethereum/rlp
-# github.com/miguelmota/go-ethereum-hdwallet v0.1.1
-## explicit; go 1.12
-github.com/miguelmota/go-ethereum-hdwallet
 # github.com/tyler-smith/go-bip39 v1.0.1-0.20181017060643-dbb3b84ba2ef
 ## explicit
 github.com/tyler-smith/go-bip39
